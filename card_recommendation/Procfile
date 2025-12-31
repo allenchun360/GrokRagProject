@@ -1,0 +1,2 @@
+release: python3 manage.py migrate
+web: gunicorn card_recommendation.wsgi --log-file -
